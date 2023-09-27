@@ -1,7 +1,7 @@
-MediaPipe Hands Detection with OpenCV
+# MediaPipe Hands Detection with OpenCV
 This README provides instructions on how to run the provided Python code for hand detection using MediaPipe and OpenCV.
 
-Prerequisites
+# Prerequisites
 Before running the code, make sure you have the following installed:
 
 Python: You'll need Python 3.x installed on your system.
@@ -9,7 +9,7 @@ Python: You'll need Python 3.x installed on your system.
 OpenCV: Install OpenCV using pip if it's not already installed
 
 
-Running the Code
+# Running the Code
 Clone the repository or download the code file (mediapipe_hand_detection.py) to your local machine.
 
 Open a terminal or command prompt and navigate to the directory containing the code file.
@@ -20,7 +20,7 @@ A window will open displaying your webcam feed with hand landmarks detected in r
 
 To exit the program, press the 'Esc' key (27 on most keyboards). This will close the webcam feed window and terminate the application.
 
-Configuration
+# Configuration
 You can adjust the following parameters in the code:
 
 min_detection_confidence: Minimum confidence score for a hand detection. Increase this value for stricter detection.
@@ -28,7 +28,7 @@ min_detection_confidence: Minimum confidence score for a hand detection. Increas
 min_tracking_confidence: Minimum confidence score for tracking hand landmarks. Increase this value for more stable tracking.
 
 
-Notes
+# Notes
 Ensure your webcam is properly connected and accessible by your system.
 
 This code captures the webcam feed and processes it in real-time. To use a pre-recorded video instead of the webcam, modify the code accordingly.
